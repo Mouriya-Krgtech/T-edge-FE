@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* custom-css */
+
+.content-wrapper{
+  overflow-x: scroll;
+}
+
+.btn-outline-success  {
+  color: rgb(54, 150, 54);
+}
+
+.btn-outline-success:hover  {
+  color:greenyellow;
+  text-decoration-color: white;
+}
+
+.modal-header {
+  background-color: #241868;
+  color: white;
+}
+
+/* .modal-content {
+  width: 150%;
+} */
+
+.modal-footer {
+  height: 65px;
+}
+
+.btn.btn-sm, .btn-group-sm > .btn {
+  font-size: 0.812rem;
+  border-radius: 9px;
+}
+
+.offcanvas-header {
+  background: #27367f;
+}
+ 
+.offcanvas-title {
+  color: white;
+}  
+ 
+.btn-close {
+  background-color: white;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-container {
+  position: relative;
+}
+
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes logo-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  animation: logo-spin 2s linear infinite;
+}

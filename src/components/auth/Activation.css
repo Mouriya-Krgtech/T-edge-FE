@@ -1,0 +1,80 @@
+/* /* Container Styles */
+.activation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7955e3, #4b2a8b);
+  }
+   
+  /* Card Styles */
+  .activation-card {
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height:550px;
+  }
+   
+  /* Header Section */
+  .activation-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+   
+  /* Content Section */
+  .activation-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+   
+  /* Header Icon and Title */
+  .activation-header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+  .activation-icon {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+  }
+   
+  .activation-title {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+   
+  /* Field Section */
+  .activation-field-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+   
+  .activation-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+   
+  .activation-help {
+    color: #888;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    display: block;
+  }
+   
+  /* Activate Button */
+  .activation-button {
+    width: 100%;
+    padding: 10px;
+  }
+   
+
